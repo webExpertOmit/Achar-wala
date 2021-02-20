@@ -1,0 +1,887 @@
+
+/*
+===============================
+Common Css Start
+===============================
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #222;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-title h2{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+/*
+===============================
+Common Css end
+===============================
+*/
+
+
+
+/*
+===============================
+Header Section Css start
+===============================
+*/
+.top-menu-section{
+    background: #89bd4e;
+    padding: 3px 0px;
+}
+.top-menu-section ul li a{
+    color: #fff;
+    font-size: 12px;
+}
+.top-link{
+    padding:5px 10px;
+}
+.nav-top-link{
+    justify-content: flex-end;
+}
+
+
+
+
+.main-menu-section{
+    padding: 20px 0px;
+}
+.main-menu-area .logo{
+    width: 100px;
+}
+.main-menu-area img{
+    width: 100%;
+}
+.main-menu-area ul li a{
+    color: #222;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px 15px;
+    display: block;
+}
+.main-menu-area ul li a:hover{
+    color:#89bd4e;
+    transition: .4s;
+}
+.main-menu-area ul{
+    margin-left: 100px;
+}
+
+.main-menu-area .search{
+    border:1px solid #89bd4e;
+    padding: 3px 10px;
+    outline: inherit;
+    width: 100%;
+}
+
+.fixed .main-menu-section {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background:#f7f7f7;
+    z-index: 999;
+    padding: 0;
+}
+.fixed .logo{
+    width: 70px;
+}
+
+.search-area{
+    position: relative;
+    margin-right: 10px;
+}
+.fa-search{
+    position: absolute;
+    right:0px;
+    top: 0px;
+    background:#89bd4e;
+    padding: 8px 10px;
+    color: #fff;
+}
+
+.my-account button{
+    background:#89bd4e; 
+    color: #fff;
+    outline: inherit;
+    border: none;
+    padding: 6px 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+}
+.bars i{
+    color: #222;
+    outline: inherit;
+}
+
+
+/*
+===============================
+Header Section Css End
+===============================
+*/
+
+
+
+
+/*
+===============================
+Slider Section Css Start
+===============================
+*/
+
+.slider-area img{
+    width: 100%;
+}
+
+.marquee-area{
+    background:#89bd4e; 
+    color: #fff;
+    padding: 10px 0px;
+    font-weight: 600;
+}
+
+
+
+/*
+===============================
+Slider Section Css End
+===============================
+*/
+
+
+
+
+
+
+/*
+===============================
+Acharwala Section Css Start
+===============================
+*/
+.acharwala-section{
+    padding: 60px 0px;
+}
+.acharwala-list{
+    text-align: center;
+}
+.acharwala-list img{
+    width: 100%;
+}
+.acharwala-list a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222;
+    padding-bottom: 10px;
+    font-size: 12px;
+    
+}
+.acharwala-area img{
+    width: 100%;
+}
+
+/*
+===============================
+Acharwala Section Css End
+===============================
+*/
+
+
+
+
+/*
+=====================================
+Acharwala Product Section Css Start
+=====================================
+*/
+
+.acharwala-prodact-section{
+    padding: 60px 0px;
+}
+.acharwala-product-area{
+    margin-top: 30px;
+    box-shadow: 0px 0px .5px 0px #222;
+    padding: 10px;
+}
+.acharwala-product-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.acharwala-product-img{
+    position: relative;
+    box-shadow: 0px 0px 2px 0px #89bd4e;
+}
+
+.acharwala-product-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background:#89bd4e;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 0px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.acharwala-product{
+    text-align: center;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    background: #fff;
+    padding: 10px;
+    margin-top: 15px;
+    
+}
+
+.acharwala-product img{
+    width: 100%;
+    box-shadow: 0px 0px .7px 0px #222;
+}
+.acharwala-product a{
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 15px;
+    display: block;
+    color: #222;
+}
+.acharwala-product a:hover{
+    color:#89bd4e; 
+}
+.acharwala-product span{
+    font-size: 11px;
+    font-weight: 500;
+}
+.product-btn button{
+    background: none;
+    text-transform: uppercase;
+    border: 1px solid #89bd4e;
+    font-size: 10px;
+    color: #89bd4e;
+    padding: 5px 15px;
+    outline: inherit;
+    margin-top: 10px;
+    margin-left: -10px;
+    font-weight: 600;
+}
+.product-btn .fa-shopping-cart{
+    background: #89bd4e;
+    color: #fff;
+    padding: 9px;
+    font-size: 10px;
+}
+
+
+
+/*
+=====================================
+Acharwala Product Section Css End
+=====================================
+*/
+
+
+
+
+
+/*
+=====================================
+Blog Section Css Start
+=====================================
+*/
+.blog-section{
+    padding: 60px 0px;
+    background: #f6fef1;
+}
+
+.blog-area img{
+    width: 100%;
+}
+.blog-area {
+    background: #fff;
+    margin-top: 25px;
+    box-shadow: 0px 1px 8px 0px #222;
+}
+.blog-content{
+    padding: 25px 10px;
+}
+.blog-content a{
+    color: #222;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.blog-content a:hover{
+    color:#89bd4e;
+    transition: .4s;
+}
+.blog-btn{
+    padding: 10px 50px;
+    text-transform: uppercase;
+    border: 1px solid #89bd4e;
+    margin-top: 50px;
+    background: #89bd4e;
+    color: #fff;
+    font-size: 12px;
+}
+.blog-btn:hover{
+    background: none;
+    color: #89bd4e;
+    transition: .5s;
+}
+.blog-btn:focus{
+    outline: inherit;
+}
+.blog-blog-btn{
+    text-align: center;
+}
+
+.blog-section nav ul{
+    justify-content: center;
+    margin-top: 35px;
+}
+
+
+/*
+=====================================
+Blog Section Css End
+=====================================
+*/
+
+
+
+
+
+
+
+/*
+=====================================
+Top Footer Section Css start
+=====================================
+*/
+
+
+/*
+=====================================
+Top Footer Section Css End
+=====================================
+*/
+
+.top-footer-section{
+    margin-top: 50px;
+    position: relative;
+}
+.top-footer-area{
+    background:#89bd4e;
+    color: #fff;
+    padding: 20px 20px;
+}
+.top-footer-info img{
+    width: 100%;
+}
+.top-footer-info{
+    padding: 15px;
+}
+.top-footer-info ul li{
+    list-style: none;
+}
+.top-footer-info ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*
+=====================================
+Main Footer Section Css start
+=====================================
+*/
+.main-footer-section{
+    padding: 50px 60px;
+    background: #222;
+    color: #fff;
+    margin-top: -100px;
+    padding-top: 150px;
+}
+.main-footer-info{
+    margin-top: 25px;
+}
+.main-footer-info h4{
+    text-transform: uppercase;
+}
+.main-footer-info input{
+    padding:5px 10px;
+    outline: inherit;
+    width: 200px;
+}
+.main-footer-info button{
+    padding:9px 10px;
+    outline: inherit;
+    position: absolute;
+    border: none;
+    font-size: 11px;
+    background: #89bd4e;
+    color: #fff;
+}
+.subscribe{
+    position: relative;
+}
+
+/*
+=====================================
+Main Footer Section Css End
+=====================================
+*/
+
+/*
+=====================================
+Bottom Footer Section Css Start
+=====================================
+*/
+.bottom-footer-section{
+   
+}
+.bottom-footer-area{
+    text-align: center;
+    color: #fff;
+    background: #000;
+    padding: 20px 0px;
+}
+/*
+=====================================
+Bottom Footer Section Css End
+=====================================
+*/
+
+
+
+
+/*===============================
+    Arrow Section 
+ ===============================*/
+.top {
+    width: 35px;
+    height: 35px;
+    background: #111;
+    text-align: center;
+    font-size: 20px;
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+    line-height: 1.8;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.top:hover {
+    background: #89bd4e;;
+}
+
+.top a {
+    color: #fff;
+}
+
+/*===============================
+    Cart Section 
+ ===============================*/
+.cart-area {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    top: 40%;
+    right: 0;
+    z-index: 999;
+}
+
+.cart-area .cart {
+    font-size: 22px;
+    background: #89bd4e;
+    padding: 2px;
+    color: #fff;
+
+}
+
+.cart-area span {
+    background: #f6f6f6;
+}
+
+.cart-area .item {
+    margin: 0;
+    background: #222;
+    color: #fff;
+}
+
+.cart-area .price {
+    margin: 0;
+    background: #222;
+    color: #fff;
+}
+
+
+.add-cart-section {
+    width: 300px;
+    height: 100vh;
+    background: #fff;
+    position: fixed;
+    top: 62px;
+    right: 0;
+    z-index: 999;
+    display: none;
+}
+
+.cart-header {
+    background: #89bd4e;
+    padding: 10px;
+    color: #fff;
+}
+
+.cart-header .cart-icon {
+    margin-left: 200px;
+    font-size: 22px;
+}
+
+.cart-header .cart-item {
+    font-size: 16px;
+}
+
+.cart-body {
+    text-align: center;
+    margin-top: 20%;
+    padding: 30px;
+}
+
+.cart-body img {
+    width: 100%;
+}
+
+.cart-body p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.cart-bottom {
+    background: #89bd4e;
+    padding: 20px 0px;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+}
+
+.cart-bottom .cart-btn {
+    padding: 8px 20px;
+    border: none;
+    background: #222;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.cart-bottom .total-price {
+    margin-left: 100px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+/*
+=====================================
+=====================================
+Contact Page Start Here
+=====================================
+=====================================
+*/
+.contact-form-section{
+    padding: 80px 0px;
+}
+.contact-form-area input, textarea{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 15px;
+    outline: inherit;
+}
+.contact-form-area .contact-info{
+    width: 49%;
+}
+.contact-form-area .ml{
+    margin-left: 1%;
+}
+
+.contact-form-area .contact-btn{
+    background: #222;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+}
+
+
+
+/*
+=====================================
+=====================================
+Contact Page End Here
+=====================================
+=====================================
+*/
+
+
+/*
+=====================================
+=====================================
+Product Details Page Start Here
+=====================================
+=====================================
+*/
+.pro-details-section{
+    padding: 80px 0px;
+}
+.pro-details-img{
+    box-shadow: 0px 0px .7px 0px #222;
+}
+.sub-img{
+    box-shadow: 0px 0px .7px 0px #222;
+    padding: 5px;
+}
+
+.pro-details-info .pro{
+    background: none;
+    padding:5px 10px;
+}
+.pro-details-add{
+    padding: 5px 15px;
+    border: 1px solid #89bd4e;
+    background:#89bd4e; 
+    color: #fff;
+}
+.pro-details-add:focus{
+    
+    outline: inherit;
+}
+.description-section{
+    padding: 50px 0px;
+}
+.related-product-section{
+    padding: 80px 0px;
+}
+
+/*
+=====================================
+=====================================
+Product Details Page End Here
+=====================================
+=====================================
+*/
+
+
+
+
+
+/*
+=====================================
+=====================================
+Our Product Page Start Here
+=====================================
+=====================================
+*/
+.our-product-section{
+    padding: 80px 0px;
+}
+.product-categories{
+    box-shadow: 0px 0px .5px 0px #222;
+    padding: 20px 20px;
+}
+.product-categories a{
+    color: #222;
+    text-decoration: none;
+}
+
+/*
+=====================================
+=====================================
+Our Product Page End Here
+=====================================
+=====================================
+*/
+
+
+
+/*
+=====================================
+=====================================
+Blog Details Page Start Here
+=====================================
+=====================================
+*/
+.blog-area-section{
+    padding: 120px 0px;
+}
+
+
+
+/*
+=====================================
+=====================================
+Blog Details Page End Here
+=====================================
+=====================================
+*/
+
+/*
+=====================================
+=====================================
+About Page Start Here
+=====================================
+=====================================
+*/
+.about-section{
+    padding: 120px 0px;
+}
+.about-area{
+    padding: 50px 0px;
+}
+.about-content{
+    margin-top: 50px;
+}
+
+/*
+=====================================
+=====================================
+About Page End Here
+=====================================
+=====================================
+*/
+
+
+
+/*
+=======================================
+        Login Page Css Start Hera
+=======================================
+*/
+
+/*===================
+   Login section
+===================*/
+.login-section {
+    padding: 80px 0px;
+    background: #fff;
+}
+
+.login-area {
+    width: 400px;
+    margin: auto;
+    background: #89bd4e;
+    padding: 80px 20px;
+    box-shadow: 0px 0px 5px 0px #5b7e34;
+    border-radius: 5px;
+}
+.login-area h4{
+    text-align: center;
+    font-weight: 600; 
+}
+
+.login-top {
+    text-align: center;
+    color: #fff;
+}
+
+.login-area input {
+    width: 100%;
+    padding: 8px 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.login-area input:focus {
+    outline: 0;
+}
+
+.login-area .submit {
+    border: none;
+    background: #5b7e34; 
+    color: #fff;
+    font-weight: bold;
+}
+
+.login-area a {
+    color: #fff; 
+}
+.login-area span {
+    color: #fff;
+}
+
+.user {
+    position: relative;
+}
+
+.fa-user {
+    position: absolute;
+    right: 15px;
+    top: 27px;
+    font-size: 18px;
+
+}
+
+.user-pass {
+    position: relative;
+}
+
+.fa-eye {
+    position: absolute;
+    right: 15px;
+    top: 27px;
+    font-size: 18px;
+
+}
+
+.user-pass {
+    position: relative;
+}
+
+.fa-eye-slash {
+    position: absolute;
+    right: 15px;
+    top: 27px;
+    font-size: 18px;
+    display: none;
+
+}
+
+
+/*
+=======================================
+        Login Page Css End Hera
+=======================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
